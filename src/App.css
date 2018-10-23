@@ -1,0 +1,59 @@
+html, body {
+	height:100%;
+}
+#root{
+  height:100%;
+  width:100%;
+}
+.mapDiv {
+  /*width:400px;
+  height:400px;*/
+  flex-grow: 1;
+  margin-left: 15px;
+}
+#map {
+  /*width:400px;
+  height:400px;*/
+  height:100%;
+  width:100%;
+}
+.dotsListWrap{
+  width:400px;
+  height:400px;
+  border:1px solid black;
+  display:flex;
+  flex-direction:column;
+  overflow-y:auto;
+}
+.listItemWrap{
+  border:1px solid black;
+  position: relative;
+}
+.listItemName{
+    float: left;
+    width: 100%;
+	margin-right: -30px;
+	padding-right: 30px;
+	box-sizing: border-box;
+}
+.listItemDel{
+  float: left;
+  width:30px;
+  border-left:1px solid black;
+  padding: 5px;
+  box-sizing: border-box;
+  text-align: center;
+  line-height: 30px;
+  cursor: pointer;
+}
+.enterInput{
+	margin-bottom: 15px;
+	width:400px;
+}
+.mainWrap{
+  height:100%;
+  width:100%;
+  display: flex;
+}
+.inputListWrap{
+}
